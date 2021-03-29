@@ -35,12 +35,7 @@
     <v-navigation-drawer v-model="drawer" app class="primary">
       <v-list>
 
-        <v-layout column align-center class="white--text">
-          <v-flex>
-            <canvas id="qr"></canvas>
-          </v-flex>
-          QR code for this App
-        </v-layout>
+        <QRCode />
 
         <!-- v-list-tile is changed to v-list-item -->
         <v-list-item v-for="link in links" :key="link.text" router :to="link.route">
@@ -58,8 +53,10 @@
 
 
 <script>
-import QRCode from 'qrcode';
+import QRCode from './QRcode';
+
 export default {
+  components: { QRCode },
   data: () => ({
     drawer: false,
     links: [
@@ -67,14 +64,5 @@ export default {
       { icon: 'contacts', text: 'About', route: '/about'},
     ]
   }),
-  mounted: function(){
-    var currentUrl = window.location.origin;
-    console.log(currentUrl);
-    QRCode.toCanvas(document.getElementById('qr'),
-      currentUrl, { toSJISFunc: QRCode.toSJIS }, function (error) {
-      if (error) console.error(error)
-      console.log('success!')
-    })
-  }
 }
 </script>
