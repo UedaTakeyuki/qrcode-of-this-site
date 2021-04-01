@@ -2,9 +2,11 @@
 
 <img src="https://github.com/UedaTakeyuki/qrcode-of-this-site/blob/main/img/IMG_0228.PNG" width="50%"/>
 
-## Project setup
+## Install 
 ```
-npm install
+yarn add qrcode-of-this-site
+#or
+npm install qrcode-of-this-site
 ```
 
 ### Compiles and hot-reloads for development
