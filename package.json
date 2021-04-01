@@ -1,6 +1,6 @@
 {
   "name": "qrcode-of-this-site",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "vue component to show qrcode of this site",
   "author": {
     "name": "Dr. Takeyuki UEDA",
