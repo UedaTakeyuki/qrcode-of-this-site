@@ -1,14 +1,16 @@
 {
   "name": "qrcode-of-this-site",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "vue component to show qrcode of this site",
   "author": {
-    "name" : "Dr. Takeyuki UEDA",
-    "email" : "ueda@latelierdueda.com",
-    "url" : "https://atelierueda.uedasoft.com/"
+    "name": "Dr. Takeyuki UEDA",
+    "email": "ueda@latelierdueda.com",
+    "url": "https://atelierueda.uedasoft.com/"
   },
   "homepage": "https://github.com/UedaTakeyuki/qrcode-of-this-site",
-  "bugs": {"url": "https://github.com/UedaTakeyuki/qrcode-of-this-site/issues"},
+  "bugs": {
+    "url": "https://github.com/UedaTakeyuki/qrcode-of-this-site/issues"
+  },
   "license": "MIT",
   "private": false,
   "scripts": {
