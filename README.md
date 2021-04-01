@@ -1,6 +1,6 @@
 # QRcode of this site
 
-<img src="/img/IMG_0228.PNG" />
+<img src="/img/IMG_0228.PNG" width="75%"/>
 
 ## Project setup
 ```
