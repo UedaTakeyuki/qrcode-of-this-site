@@ -23,6 +23,7 @@ export default {
   components: {QRcode},
 }
 </script>
+```
 
 A sample of usage in the demo site code is [here](https://github.com/UedaTakeyuki/vue-faui-user-fe-sample/blob/275e6752883ea11400814995c5b0830a3227f84e/src/components/Navbar.vue#L36).
 
@@ -37,4 +38,4 @@ Github [issues](https://github.com/UedaTakeyuki/qrcode-of-this-site/issues) are 
 [Dr. Takeyuki UEDA](https://atelierueda.uedasoft.com/)
 
 ## History
-- 1.0.3 2021.04.01 first version.
+- 1.0.4 2021.04.01 first version.
