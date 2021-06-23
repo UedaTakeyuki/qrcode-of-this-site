@@ -1,6 +1,6 @@
 {
   "name": "qrcode-of-this-site",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "vue component to show qrcode of this site",
   "author": {
     "name": "Dr. Takeyuki UEDA",
@@ -32,17 +32,7 @@
     "vuetify": "^2.0.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.10.0",
-    "@vue/cli-plugin-eslint": "^3.10.0",
-    "@vue/cli-service": "^3.10.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "sass": "^1.17.4",
-    "sass-loader": "^7.1.0",
-    "vue-cli-plugin-vuetify": "^0.6.3",
-    "vue-template-compiler": "^2.6.10",
-    "vuetify-loader": "^1.2.2"
+    "qrcode": "^1.4.4"
   },
   "eslintConfig": {
     "root": true,
