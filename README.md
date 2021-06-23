@@ -39,3 +39,4 @@ Github [issues](https://github.com/UedaTakeyuki/qrcode-of-this-site/issues) are 
 
 ## History
 - 1.0.4 2021.04.01 first version.
+- 1.1.1 2021.06.23 decrease package size
