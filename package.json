@@ -1,6 +1,6 @@
 {
   "name": "qrcode-of-this-site",
-  "version": "1.0.5",
+  "version": "1.1.1",
   "description": "vue component to show qrcode of this site",
   "author": {
     "name": "Dr. Takeyuki UEDA",
@@ -19,9 +19,8 @@
     "build-bundle": "vue-cli-service build --target lib --name qrcode-of-this-site --formats umd ./src/build-entry.js",
     "lint": "vue-cli-service lint"
   },
-  "main": "./dist/qrcode-of-this-site.umd.js",
+  "main": "./src/build-entry.js",
   "files": [
-    "dist/*",
     "src/components/QRcode.vue",
     "src/build-entry.js"
   ],
