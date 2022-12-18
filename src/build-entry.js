@@ -6,6 +6,4 @@ export {
 }
 
 // Default export
-export default {
-  QRcode
-};
+export default QRcode
