@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import analyze from "rollup-plugin-analyzer";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -17,11 +18,12 @@ export default defineConfig({
         globals: {
           vue: 'Vue',
         },
+        plugins: [analyze()],
       },
     },
   },
-  optimizeDeps: {
+/*  optimizeDeps: {
     include: ["qrcode"],
-  },
+  },*/
   plugins: [vue()],
 })
