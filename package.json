@@ -1,6 +1,8 @@
 {
   "name": "qrcode-of-this-site",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/qrcode-of-this-site.umd.js",
   "module": "./dist/qrcode-of-this-site.es.js",
   "exports": {
@@ -9,7 +11,7 @@
       "require": "./dist/qrcode-of-this-site.umd.js"
     }
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
