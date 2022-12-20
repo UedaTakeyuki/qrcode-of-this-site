@@ -53,7 +53,7 @@
 
 
 <script>
-import QRCode from './QRcode';
+import QRCode from '/src/components/QRcode.vue';
 
 export default {
   components: { QRCode },

@@ -1,59 +1,28 @@
 {
   "name": "qrcode-of-this-site",
-  "version": "1.1.3",
-  "description": "vue component to show qrcode of this site",
-  "author": {
-    "name": "Dr. Takeyuki UEDA",
-    "email": "ueda@latelierdueda.com",
-    "url": "https://atelierueda.uedasoft.com/"
+  "files": ["dist"],
+  "main": "./dist/qrcode-of-this-site.umd.js",
+  "module": "./dist/qrcode-of-this-site.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/qrcode-of-this-site.es.js",
+      "require": "./dist/qrcode-of-this-site.umd.js"
+    }
   },
-  "homepage": "https://github.com/UedaTakeyuki/qrcode-of-this-site",
-  "bugs": {
-    "url": "https://github.com/UedaTakeyuki/qrcode-of-this-site/issues"
-  },
-  "license": "MIT",
-  "private": false,
+  "version": "3.0.1",
+  "type": "module",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "build-bundle": "vue-cli-service build --target lib --name qrcode-of-this-site --formats umd ./src/build-entry.js",
-    "lint": "vue-cli-service lint"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "main": "./src/build-entry.js",
-  "files": [
-    "src/components/QRcode.vue",
-    "src/build-entry.js"
-  ],
   "dependencies": {
-    "qrcode": "^1.4.4"
+    "qrcode": "^1.5.1",
+    "vue": "^3.2.45",
+    "vuetify": "^3.0.5"
   },
   "devDependencies": {
-    "qrcode": "^1.4.4"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {
-      "stylelint": "refer https://qiita.com/saio-th/items/111f6f5cc62f421cf045",
-      "no-console": 0
-    },
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
+  }
 }

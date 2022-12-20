@@ -1,4 +1,4 @@
-import QRcode from './components/QRcode.vue';
+import QRcode from '/src/components/QRcode.vue';
 
 // Named export
 export {
