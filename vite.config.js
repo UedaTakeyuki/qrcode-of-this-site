@@ -9,7 +9,7 @@ import { visualizer } from 'rollup-plugin-visualizer';
 // https://zenn.dev/manalink_dev/articles/vite-bundle-analyzer
 
 // https://vitejs.dev/config/
-export default (({ mode }) => {
+export default defineConfig(({ mode }) => {
   return {
     build: {
       lib: {
